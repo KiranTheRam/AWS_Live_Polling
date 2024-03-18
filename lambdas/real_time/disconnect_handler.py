@@ -1,3 +1,4 @@
+# Removes old connections from DB
 import boto3
 
 dynamodb = boto3.resource('dynamodb')
