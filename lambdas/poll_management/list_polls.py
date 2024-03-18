@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     table = dynamodb.Table('Polls')
 
     try:
-        # Scan the table (consider using query and pagination in production)
+        # Scan the table
         response = table.scan()
 
         # Extract items from the response
