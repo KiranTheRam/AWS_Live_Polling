@@ -1,3 +1,4 @@
+# Used to store WebSocket connection ids
 import boto3
 
 dynamodb = boto3.resource('dynamodb')
